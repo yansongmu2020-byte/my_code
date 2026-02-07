@@ -1,0 +1,5 @@
+if ( @Cd.r == 1) i@class = 1 ;  // 红色对应类别1
+if ( @Cd.g == 1) i@class = 2 ;  // 绿色对应类别2
+if ( @Cd.b == 1) i@class = 3 ;  // 蓝色对应类别3
+s@shop_materialpath=sprintf("mat%02d", @class);  // 设置材质路径
+s@path = sprintf("/high/SM_Mode_%04d_high",@class); //设置模型路径
