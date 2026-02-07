@@ -1,0 +1,7 @@
+配置houdini的python库
+C:\Program Files\Side Effects Software\Houdini 21.0.440\houdini\python3.11libs
+C:\Program Files\Side Effects Software\Houdini 21.0.440\python311\lib\site-packages
+C:\Program Files\Side Effects Software\Houdini 21.0.440\bin
+
+配置houdini的hython解释器
+"C:\Program Files\Side Effects Software\Houdini 21.0.440\bin\hython.exe"
