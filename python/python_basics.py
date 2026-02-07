@@ -6,8 +6,10 @@ print(f"当前版本: {hou.applicationVersionString()}")
 
 # 尝试创建一个简单的节点（在内存中）
 node_count = len(hou.node("/").allItems())
+node_count = len(hou.node("/").allNodes())
 
 print("--- 运行结束 ---")
 hou.pwd
+hou.pwd()
 
 node = hou.pwd()
