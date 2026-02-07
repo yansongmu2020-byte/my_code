@@ -5,6 +5,7 @@ print("--- Houdini Python 联通成功 ---")
 print(f"当前版本: {hou.applicationVersionString()}")
 
 # 尝试创建一个简单的节点（在内存中）
+node_count = len(hou.node("/").allItems())
 
 print("--- 运行结束 ---")
 hou.pwd
